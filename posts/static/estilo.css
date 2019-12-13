@@ -1,0 +1,28 @@
+body{
+    background-color: #fff;
+    color: black;
+    margin: 0;
+    
+    
+    
+}
+
+img{
+    width: 100%;
+}
+
+nav{
+    align-items: center;
+    background-color: orangered;
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+   
+
+}
+
+nav a{
+    color: black;
+    font-size: 14pt;
+    text-decoration: none;
+

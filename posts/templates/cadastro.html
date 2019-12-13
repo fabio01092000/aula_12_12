@@ -1,0 +1,20 @@
+{% extends 'home.html' %}
+{% load static %}
+
+{% block content %}
+
+<h1>Login</h1>
+<h3>Faça seu login</h3>
+{% if formulario %}
+    <form method="POST">
+      {% csrf_token %}
+      {{formulario}}
+      <button>entrar</button>
+      
+    </form>
+{% endif %}
+{% if msg %}
+    <h3>{{msg}}</h3>    
+    {% endif %} 
+
+ {% endblock %}
